@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+</head>
+<body>
+<h1>Upload PDF or JPEG files</h1>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="files" accept=".pdf,.jpg,.jpeg" multiple required>
+    <button type="submit">Upload and Get ZIP</button>
+</form>
+</body>
+</html>
